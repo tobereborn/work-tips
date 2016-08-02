@@ -1,9 +1,5 @@
-eclipse
-http://www.weixinrensheng.com/vY5dCU7/
- 
+vim 快捷键：
 
-
-vim
 0是行首,$是行尾
 :s/^.*$/\L&/100
 
