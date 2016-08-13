@@ -14,6 +14,7 @@ echo "start sshd"
 sudo servie sshd start
 
 echo "generate keys"
+#ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa_githb
 ssh-keygen –t rsa –P ''
 cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 chmod 600 ~/.ssh/authorized_keys
