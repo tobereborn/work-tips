@@ -8,12 +8,12 @@ if [ ! -x "$folder"]; then
   mkdir "$folder"
 fi
 
-# dir existing
+# directory existence
 if [ ! -d "$folder"]; then
   mkdir "$folder"
 fi
 
-# file existing
+# file existence
 if [ ! -f "$file" ]; then
   touch "$file"
 fi
