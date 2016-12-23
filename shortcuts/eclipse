@@ -1,2 +1,35 @@
-eclipse
-http://www.weixinrensheng.com/vY5dCU7/
+第一招 文件切换的三种方式：Ctrl + E，Ctrl + Pg Up，Ctrl +Pg Dn，Ctrl + F6
+第二招 复制当前行或者当前选中的代码块: Ctrl + Alt + ↓
+第三招 显示当前类的所有属性和方法: Ctrl + O
+第四招 Ctrl + W关闭当前文件，Ctrl + Shift + W关闭所有文件
+第五招 快速定位当前文件在工程中的位置: Alt + Shift +W->package 
+第六招：选中Java文件中的内容: Alt + Shift +→
+第七招 Ctrl + T选择java文件,Ctrl + R选择资源文件
+第八招 Ctrl + H 进行全局搜索和局部搜索
+第九招 自动生成: Alt + Shift+S  -> r (get/set), h(hash), s(toString())
+第十招 视图切换: Ctrl + F7
+第十一招 经典的 Quick Access: Ctrl + 3
+第十二招 变量名和方法之间的跳跃: Ctrl + Shift + ↓
+第十三招 重构: Alt + Shift + R (修改名字), Alt + Shift + M(抽取类方法)
+第十四招 Eclipse的面包屑功能: Alt + Shift + B
+第十五招 Ctrl + Shift +G,找出调用某个方法的所有类
+第十六招 Ctrl + K 和Ctrl + Shfit + K,查找文本
+第十七招 调出搜索文本的视图: Ctrl + F ->Alt+underslash_char / Tab
+第十八招 不用鼠标如何关闭打开的视图: Esc键
+第十九招  启动tomcat: Ctrl + F7 -> Ctrl + Alt+ D
+第二十招 如何快速生成for循环、switch 等代码块: Alt+/
+         注意在比较新的Eclipse版本中，Alt + /是默认的代码提示快捷键，相对旧版的默认快捷键是Ctrl + Space,它会跟输入冲突。
+         如何修改Ctrl + Space这个默认快捷键呢？
+         注意使用前面的知识点，是可以通过快捷键来操作的。
+         1. Ctrl + 3
+         2. 输入keys，跳转到keys视图
+         3. 跳转到keys视图后，默认选中的选项是，如何跳转到从而输入内容呢。利用Tag键即可，然后输入content assist。
+         4. 使用Alt + B,跳到Binding选项，输入Alt+/即可。
+         5. 使用Tab键，跳到OK选项，单击回车键即可生效。
+第二十一招 关闭文件: Ctrl + W(当前),  Ctrl + Shift +W(所有), Alt + ← (Reopen)
+第二十二招 大小写转换: Ctrl + Shift + Y 变小写，Ctrl +Shift + X变大写
+第二十三招 创建各种类型的文件: Alt + Shift + N(当前包) ,Ctrl+ N(任意目录)
+第二十四招 删除当前行: Ctrl + D
+第二十五招 根据左大括号找到右大括号: Ctrl + Shift + P
+第二十六招 ,如何从其他视图中，跳转到代码编辑器视图: F12
+第二十七招 如何跳转到文件中的特定行: Ctrl + L
