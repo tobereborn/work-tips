@@ -8,4 +8,5 @@ mysqldump -hhost -Pport -uroot -pdbpasswd -d dbname test>db.sql;
 mysqldump  -hhost -Pport -uroot -pdbpasswd  dbname >db.sql;
 
 # dump test table definition and data without option -d
-mysqldump  -hhost -Pport -uroot -pdbpasswd dbname test>db.sql;
+# to export emoji
+mysqldump  -hhost -Pport -uroot -pdbpasswd --default-character-set=utf8mb4  dbname test>db.sql;
